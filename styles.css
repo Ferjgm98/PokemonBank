@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.center-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons-actions-container {
+  margin-top: 20px;
+}
+
+.buttons-actions-container button {
+  background-color: aqua;
+  border: 1px 1px springgreen;
+  width: 20vw;
+  height: 10vw;
+  font-size: 2vw;
+  border-radius: 3vw;
+}
+
+.buttons-actions-container button:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.table-grid {
+  width: 80%;
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 20px;
+  border: 1px solid black;
+}
+
+.table-grid div {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
